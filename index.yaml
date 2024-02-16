@@ -3,7 +3,7 @@ entries:
   charttopush:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-16T11:22:00.442224+01:00"
+    created: "2024-02-16T11:52:08.176359+01:00"
     description: A Helm chart for Kubernetes
     digest: d8490af6f162c11142fd9e82d74ffb637292f97e279419b68512585e0c1e1d3a
     name: charttopush
@@ -11,10 +11,25 @@ entries:
     urls:
     - charttopush-0.1.0.tgz
     version: 0.1.0
+  couponservice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-16T11:52:08.178708+01:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.19.0
+    description: A Helm chart for Kubernetes
+    digest: 1e3b8642266d5d95dc48565f2ddb20e20f1d973f3b7f4bd20f75d478d5c94872
+    name: couponservice
+    type: application
+    urls:
+    - couponservice-0.1.0.tgz
+    version: 0.1.0
   signeddemochart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-16T11:22:00.448577+01:00"
+    created: "2024-02-16T11:52:08.179157+01:00"
     description: A Helm chart for Kubernetes
     digest: b76b2a664c041e73db06c7f5fc022e63cf0d9984c56504b910bd5f6567149857
     name: signeddemochart
@@ -22,4 +37,4 @@ entries:
     urls:
     - signeddemochart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-16T11:22:00.441579+01:00"
+generated: "2024-02-16T11:52:08.175532+01:00"
