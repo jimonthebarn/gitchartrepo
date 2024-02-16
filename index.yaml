@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
-  demochart:
+  charttopush:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-02T12:40:03.105865+01:00"
+    created: "2024-02-16T11:22:00.442224+01:00"
     description: A Helm chart for Kubernetes
-    digest: fae7b464da75d0fc790197e8649605060d0e0cdfa365f3ea3e7263dfdcf41f78
-    name: demochart
+    digest: d8490af6f162c11142fd9e82d74ffb637292f97e279419b68512585e0c1e1d3a
+    name: charttopush
     type: application
     urls:
-    - demochart-0.1.0.tgz
+    - charttopush-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-02T12:40:03.088244+01:00"
+  signeddemochart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-16T11:22:00.448577+01:00"
+    description: A Helm chart for Kubernetes
+    digest: b76b2a664c041e73db06c7f5fc022e63cf0d9984c56504b910bd5f6567149857
+    name: signeddemochart
+    type: application
+    urls:
+    - signeddemochart-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-02-16T11:22:00.441579+01:00"
